@@ -3,12 +3,13 @@
 
 <head>
   <title>The Pyschic Game</title>
-  <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text.css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="assets/javascript/game.js"></script>
 </head>
 
-<body background = "assets/images/backgroundImage.png">
+<body>
   <div class="header">
     <div class="row">
       <h1>The Psychic Game</h1>
@@ -29,7 +30,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <div class="populate" id="winCount">
+        <div class="populate" id="wins">
           0
         </div>
       </div>
@@ -43,7 +44,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <div class="populate" id="lossCount">
+        <div class="populate" id="losses">
           0
         </div>
       </div>
@@ -51,7 +52,7 @@
 
     <div class="row">
       <div class="col-md-12, info">
-        Guesses Remaining:
+        Guesses Left:
       </div>
     </div>
 
@@ -65,13 +66,13 @@
 
     <div class="row">
       <div class="col-md-12, info">
-        Your Guesses:
+        Your Guesses so far:
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-12">
-        <div class="populate" id="guessedLetters">
+        <div class="populate" id="lettersUsed">
           guesses..
         </div>
       </div>

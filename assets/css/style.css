@@ -1,45 +1,50 @@
+body{
+  background: url(../images/CrystalBall.jpg);
+  background-size:100% auto;
+  width: 100%;
+  height: 100%;
+}
 .header {
-    background-color: rgb(0, 0, 0);
-    color: #e2df24;
-    text-align: center;
-    padding: 15px;
-    border-bottom: 5px solid #e2df24;
-    border-top: 5px solid #e2df24;
+  background-color: rgb(0, 0, 0);
+  color: #e2df24;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 5px solid #e2df24;
+  border-top: 5px solid #e2df24;
   }
-  .container {
-    width: 60%;
-    background-color: rgb(0, 0, 0);
-    color: #e2df24;
-    border: 5px solid #e2df24;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px;
-    text-align: center;
+.container {
+  width: 60%;
+  background-color: rgb(0, 0, 0);    color: #e2df24;
+  border: 5px solid #e2df24;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
   }
-  .col-md-12 {
-    padding: 5px;
-    margin: auto;
-  }
-  .populate {
-    background-color: #000000;
-    color: #e2df24;
-    width: 50%;
-    margin: auto;
-  }
-  h1 {
-    font-size: 40px;
-    font-weight: bold; 
+.col-md-12 {
+  padding: 5px;
+  margin: auto;
+}
+.populate {
+   background-color: #000000;
+  color: #e2df24;
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold; 
   }
   h2{
-      font-size: 26px;
-      font-weight: bold;
-      color: red;
-  }
-  h3 {
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bold;
+    color: red;
   }
-  .info {
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.info {
     font-size: 24px;
-  }
+}
   
