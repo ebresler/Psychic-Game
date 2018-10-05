@@ -5,46 +5,65 @@ body{
   height: 100%;
 }
 .header {
+  font-family: fantasy;
   background-color: rgb(0, 0, 0);
   color: #e2df24;
   text-align: center;
-  padding: 15px;
   border-bottom: 5px solid #e2df24;
   border-top: 5px solid #e2df24;
   }
 .container {
-  width: 60%;
-  background-color: rgb(0, 0, 0);    color: #e2df24;
-  border: 5px solid #e2df24;
-  margin-top: 20px;
+  width: 50%;
+  background-color: rgb(0, 0, 0);    
+  color: #e2df24;
+  margin-top: 5px;
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
+  opacity: 0.8;
   }
 .col-md-12 {
-  padding: 5px;
   margin: auto;
 }
 .populate {
-   background-color: #000000;
-  color: #e2df24;
+  background-color: #000000;
   width: 50%;
   margin: auto;
 }
+#lossesTitle{
+  color: red;
+}
+#winsTitle{
+  color: green;
+}
 h1 {
-  font-size: 40px;
+  font-size: 70px;
   font-weight: bold; 
   }
   h2{
-    font-size: 26px;
-    font-weight: bold;
-    color: red;
+  font-size: 26px;
+  font-weight: bold;
+  color: e2df24;
   }
 h3 {
   font-size: 32px;
   font-weight: bold;
+  color: e2df24;
 }
 .info {
-    font-size: 24px;
+  font-size: 24px;
+  color: e2df24;
+}
+#lettersUsed,
+#guessesRemaining,
+#wins,
+#losses{
+  color: white;
+  font-size: 20px;
 }
   
+@media only screen and (max-width: 700px) {
+  .container {
+      width:80%;
+  }
+}
